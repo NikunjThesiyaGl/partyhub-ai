@@ -12,7 +12,7 @@ const ComingSoon = () => {
         <div className='flex flex-col items-center text-center'>
           <Image src="/images/party-hub-logo.svg" width={140} alt='Logo' height={300} className='w-[80px] -mb-6 md:w-[100px] object-contain z-10' />
           <div className='flex flex-col items-center text-center gap-5 lg:gap-7'>
-            <Image src="/images/characters/happy-woman.png" width={140} alt='Happy Woman' height={300} className='w-[120px] mb-16 md:mb-0 md:w-[140px] object-contain z-10' />
+            <Image src="/images/characters/happy-woman.png" width={140} alt='Happy Woman' height={300} className='w-[140px] mb-16 md:mb-0 md:w-[140px] object-contain z-10 animate-bounceUpDown' />
             <h3 className='text-theme-yellow-500 font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-theme-yellow-500 to-theme-purple-300 sm:leading-[6rem] md:leading-[8rem] animate-pulse -mt-20'>Launching Soon</h3>
             <p className='text-theme-neutral-0 text-sm md:text-base lg:text-lg md:-mt-6 lg:-mt-3'>We are going to launch our website very soon</p>
             <div className='flex flex-wrap items-center justify-center gap-3 md:gap-5'>

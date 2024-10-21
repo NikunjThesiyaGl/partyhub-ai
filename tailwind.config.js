@@ -82,6 +82,20 @@ module.exports = {
           },
         }
       },
+      keyframes: {
+        bounceUpDown: {
+          '0%, 100%': { transform: 'translateY(0)', animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)' },
+          '50%': { transform: 'translateY(-10px)', animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)' },
+        },
+        scaleUpDown: {
+          '0%, 100%': { transform: 'scale(1)', animationTimingFunction: 'ease-in-out' },
+          '50%': { transform: 'scale(1.2)', animationTimingFunction: 'ease-in-out' },
+        }
+      },
+      animation: {
+        bounceUpDown: 'bounceUpDown 2s infinite',
+        scaleUpDown: 'scaleUpDown 2s infinite'
+      },
     },
   },
   plugins: [],
