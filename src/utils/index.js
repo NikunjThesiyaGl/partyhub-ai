@@ -29,14 +29,14 @@ export const metaSeoFields = (data) => {
       title: data?.title || defaultTitle,
       url: "/",
       description: data?.description || defaultDescription,
-      images: [data?.ogImage || "/images/placeholder/og-placeholder.png"],
+      images: [data?.ogImage || "/images/placeholder/og-placeholder.png", "/images/placeholder/twitter-placeholder.png"],
     },
     twitter: {
       card: "summary_large_image",
       title: data?.title || defaultTitle,
       description: data?.description || defaultDescription,
-      image:
-        data?.twitterImage || "/images/placeholder/twitter-placeholder.png",
+      images:
+        [data?.twitterImage || "/images/placeholder/twitter-placeholder.png",]
     },
   };
 };
