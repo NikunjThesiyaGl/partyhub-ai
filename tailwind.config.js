@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'party-people': "url('/images/people-party.png')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

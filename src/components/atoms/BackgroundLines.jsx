@@ -9,11 +9,13 @@ export const BackgroundLines = ({
   svgOptions
 }) => {
   return (
-    (<div
-      className={cn("w-full bg-gradient-to-r from-theme-purple-950 to-theme-yellow-900", className)}>
-      <SVG svgOptions={svgOptions} />
-      {children}
-    </div>)
+    <div className="bg-party-people bg-no-repeat bg-bottom lg:bg-center bg-contain lg:bg-cover w-full">
+    <div
+          className={cn("w-full bg-gradient-to-r from-theme-purple-950/90 to-theme-yellow-900", className)}>
+          <SVG svgOptions={svgOptions} />
+          {children}
+        </div>
+      </div>
   );
 };
 

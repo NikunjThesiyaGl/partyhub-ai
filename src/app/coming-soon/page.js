@@ -1,4 +1,4 @@
-import ComingSoon from "@/components/templates/ComingSoon";
+import ComingSoon2 from "@/components/templates/ComingSoon2";
 import { metaSeoFields } from "@/utils";
 
 export async function generateMetadata() {
@@ -13,7 +13,7 @@ export async function generateMetadata() {
 export default function Home() {
   return (
     <>
-      <ComingSoon/>
+      <ComingSoon2/>
     </>
   );
 }
