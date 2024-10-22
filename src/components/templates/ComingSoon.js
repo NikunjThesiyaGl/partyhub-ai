@@ -2,10 +2,11 @@ import React from 'react'
 import Button from '../atoms/Button'
 import Typography from '../atoms/Typography'
 import Image from 'next/image'
+import { BackgroundLines } from '../atoms/BackgroundLines'
 
 const ComingSoon = () => {
   return (
-    <div className='w-full bg-gradient-to-r from-theme-purple-950 to-theme-yellow-900'>
+    <BackgroundLines className='w-full bg-gradient-to-r from-theme-purple-950 to-theme-yellow-900'>
       <div className='theme-container min-h-screen flex items-center justify-center w-full overflow-hidden py-24 relative'>
         <Image src="/images/characters/gift.png" width={80} alt='Gift Box' height={300} className='w-[48px] top-52 sm:top-auto sm:w-[56px] md:w-[66px] lg:w-[80px] object-contain absolute left-14 sm:left-36 md:left-40 lg:left-64 -rotate-45 z-10' />
         <Image src="/images/characters/party-cap.png" width={80} alt='Party Cap' height={300} className='w-[48px] top-40 sm:top-auto sm:w-[56px] md:w-[66px] lg:w-[80px] object-contain absolute right-14 sm:right-36 md:right-40 lg:right-64 z-10' />
@@ -30,7 +31,7 @@ const ComingSoon = () => {
           </div>
         </div>
       </div>
-    </div>
+    </BackgroundLines>
   )
 }
 
